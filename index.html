@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://kit.fontawesome.com/dc9cadbd43.js"></script>
+    <!--Google font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <!--Materialize css-->
+    <link rel="stylesheet" href="css/materialize.css" type="text/css" media="screen,projection"/>
+    <style type="text/css">
+        body {
+            background-color: rgb(35, 6, 88);
+            color: rgba(255,255,255,0.8);
+        }
+        #landing{
+            height: 100vh;
+            background-image: url('img/59165.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            z-index: -1;
+        }
+        #mainText{
+            margin-top: 30vh;
+        }
+    </style>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Luis Jeronimo - About Me</title>
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav class="black">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">My Portfolio</a>
+                    <ul class="right hide-on-med-and-down" id="navList">
+                        <li><a href="#landing">Home</a></li>
+                        <li><a href="#intro">About Me</a></li>
+                        <li><a href="#work">Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--Landing Screen-->
+    <div class="section" id="landing">
+        <h5 id="mainText" class="center">Hello, my name is</h5>
+        <h1 style="color: white;" class="center">
+            LUIS <b>JERONIMO</b>
+        </h1>
+        <h6 class="center" id="mainText">I'm a Backend Developer, also I like Machine Learning :)</h6>
+    </div>
+
+    <!-- FIXED ACTION BUTTON -->
+    <div class="fixed-action-btn vertical">
+        <a class="btn-floating btn-large  blue-grey darken-4">
+            <i class="fas fa-globe-americas"></i>
+        </a>
+        <ul>
+            <li><a class="btn-floating cyan lighten-1" href="https://www.twitter.com/Qiqe_Mtz" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="btn-floating grey darken-3" href="https://github.com/QiqeMtz" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a class="btn-floating blue-grey lighten-1" href="https://www.linkedin.com/in/luis-jeronimo/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+
+    <!-- Intro and service -->
+    <div id="intro" class="section black">
+        <div class="container">
+            <div class="row">
+                <div  class="col s12">
+                    <h3 class="center header"> "You'll never feel bored if you keep learning something new everydays"</h3>
+                </div>
+            </div>
+            <div class="row center">
+                <div class="col s12 m12 l3">
+                    <img class="responsive-img" src="img/me.jpg">
+                </div>
+                <div class="col s12 m12 offset-l1 l8 ">
+                    <h5 class="center">Luis Jeronimo <b>ABOUT ME</b></h5>
+                    <p>
+                        I am Luis Enrique Jeronimo Martinez, I'm a backend developer, machine learning enthusiast and learning a little about frontend and devops,
+                        I studied Computer Systems Engineering and a Master's degree in CS in Mexico.
+                        Actually I'm working at IBM and Citibanamex in Mexico City creating REST APIs related to transactions, investments and personal banking, 
+                        it's interesting to know how a bank works. For this I use Java and Spring-Boot among other technologies.
+                        In my day-to-day I work under Agile manifest and Scrum framework to manage my deliverables and my time,
+                        I support my job using Jira and Confluence to share my status and knowledge (documentation about projects I made).
+                        <br><br>
+                        Before IBM, I went to Bogotá, Colombia to made a research in Machine Learning with a PhD professor, it was a wonderful experience because I learned
+                        a lot from another culture and I pushed myself into a big challenge to learn about ML, Python, algorithms and read a lot of papers published in 
+                        some digital libraries, I consider myself as an autodidact guy, but this experience helped me a lot to growth my learning skills and discover my
+                        own learning method. I published a paper on IEEE :D
+                        <br><br>
+                        And before all this great experiences, during my university I went to a lot of contests of different categories such as algorithms, entrepreneurship,
+                        software development and hackathons.
+                        <br /><br>
+                        <i>“Commonly my challenges I face it with a bit of fear, and them made me who I am now” </i> 
+                    </p>
+                </dic>
+            </div>
+        </div>
+    </div>
+
+    <!--Work-->
+    <div class="section" style="background-color: #141414;" id="work">
+        <div class="container">
+            <h3 class="header text_b center">My Projects </h3>
+            <p class="center">(Click on the name to have a little description)</p> <br>
+            <div class="row ">
+                <div class="col s12 m12 l4">
+                    <div class="card hoverable black">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator purple-text text-lighten-5">Forecasting acute respiratory infections in southern Bogota, Colombia
+                                <i class="mdi-navigation-more-vert right"></i></span>
+                            <p><a class="purple-text text-lighten-5" href="https://ieeexplore.ieee.org/document/8273326" target="_blank">Link to the publication</a></p>
+                        </div>
+                        <div class="card-reveal  black">
+                            <span class="card-title purple-text text-lighten-5">Paper published in IEEE <i class="mdi-navigation-close right"></i></span>
+                            <p>This is a publication result of my research in Machine Learning that I made in Bogotá, Colombia.
+                                The publication talk about how new ML models with Python are more accurate than others applied with R language, our goal was to
+                                train our model with medical data from a southern located hospital in Bogotá Colombia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card hoverable black">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator purple-text text-lighten-5">Forecasting Acute Respiratory Infections Code
+                                <i class="mdi-navigation-more-vert right"></i></span>
+                            <p><a class="purple-text text-lighten-5" href="https://github.com/QiqeMtz/Forecasting_ARI_Southern_Bogota" target="_blank">Link to Github repo</a></p>
+                        </div>
+                        <div class="card-reveal  black">
+                            <span class="card-title purple-text text-lighten-5">Scripts from the research paper<i class="mdi-navigation-close right"></i></span>
+                            <p>This is part of a hackathon some years ago, where the main goal was to solve a society problem using technology, with my team we
+                                decided to choose blood donation because in Mexico and probably LatAm, blood donation is a practice that isn't totally accepted.
+                                In some cases it's difficult to find people who wants to help.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card hoverable black">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator purple-text text-lighten-5">Somos Vida - Blood donation application prototype
+                                <i class="mdi-navigation-more-vert right"></i></span>
+                            <p><a class="purple-text text-lighten-5" href="https://github.com/QiqeMtz/SomosVida" target="_blank">Link to Github repo</a></p>
+                        </div>
+                        <div class="card-reveal  black">
+                            <span class="card-title purple-text text-lighten-5">Hackathon prototype<i class="mdi-navigation-close right"></i></span>
+                            <p>In this repository I write the code to apply the Arima and Sarima models to forecast respiratory infections,
+                                there are jupyter notebooks that show the application of the models and how the results are compared.
+                            </p>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+            <div class="row ">
+                <div class="col s12 m12 l4">
+                    <div class="card hoverable black">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator purple-text text-lighten-5">Android Application to manage a grocery store
+                                <i class="mdi-navigation-more-vert right"></i></span>
+                            <p><a class="purple-text text-lighten-5" href="https://github.com/QiqeMtz/AlynAbarrotes" target="_blank">Link to Github repo</a></p>
+                        </div>
+                        <div class="card-reveal  black">
+                            <span class="card-title purple-text text-lighten-5">Application to help my parents<i class="mdi-navigation-close right"></i></span>
+                            <p>My parents have a little grocery store, and I saw that each month they made their accountability and incomes/outcomes
+                                with paper and pencil, I decided to help them creating an Android app to their tablet. With this app you enter all your daily sales
+                                and generate reports about incomes and outcomes, how much money they spent and how much they earn.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card hoverable black">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator purple-text text-lighten-5">MediApp
+                                <i class="mdi-navigation-more-vert right"></i></span>
+                            <p><a class="purple-text text-lighten-5" href="https://github.com/QiqeMtz/MediApp" target="_blank">Link to Github repo</a></p>
+                        </div>
+                        <div class="card-reveal  black">
+                            <span class="card-title purple-text text-lighten-5">Application to manage a doctor's office<i class="mdi-navigation-close right"></i></span>
+                            <p>This is part of my master's degree studies, I created an application that connects with hardware to read heart rate (BPM), blood oxigenation,
+                                heart pressure and weight. This application helps a doctor to manage all operations of his office, register new patients, update patients information,
+                                collect vitals from their patients using the hardware and store the data in a database.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card hoverable black">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator purple-text text-lighten-5">Ethereum forecast with time series
+                                <i class="mdi-navigation-more-vert right"></i></span>
+                            <p><a class="purple-text text-lighten-5" href="https://github.com/QiqeMtz/Ethereum_Forecast" target="_blank">Link to Github repo</a></p>
+                        </div>
+                        <div class="card-reveal  black">
+                            <span class="card-title purple-text text-lighten-5">Little practice about time series forecasting<i class="mdi-navigation-close right"></i></span>
+                            <p>In this repository I write the code to apply the Arima and Sarima models to forecast time series about Ethereum pricing
+                            </p>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <h4 class="center"><a href="https://github.com/QiqeMtz" target="_blank">You can also visit my GitHub repository where I have more projects</a></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skill Sets -->
+    <div class="section" style="background-color: #201c1c;" id="skillsets">
+        <div class="container">
+            <div class="row">
+                <h1 class="center white-text">
+                    My Skills
+                </h1>
+            </div>
+            <div class="row center">
+                <div class="col s12 m12 l3">
+                    <h5 class="center white-text">Programming languages and DB</h5>
+                    <ul>
+                        <li><h5>-Java</h5></li>
+                        <li><h5>-Python</h5></li>
+                        <li><h5>-R</h5></li>
+                        <li><h5>-JavaScript</h5></li>
+                        <li><h5>-Bash</h5></li>
+                        <li><h5>-SQL</h5></li>
+                        <li><h5>-NoSQL</h5></li>
+                    </ul>
+                </div>
+                <div class="col s12 m12 l3">
+                    <h5 class="center white-text">Machine Learning</h5>
+                    <ul>
+                        <li><h5>-Linear regression</h5></li>
+                        <li><h5>-Pandas</h5></li>
+                        <li><h5>-NumPy</h5></li>
+                        <li><h5>-Jupyter Notebooks</h5></li>
+                        <li><h5>-R and Python libraries</h5></li>
+                    </ul>
+                </div>
+                <div class="col s12 m12 l3">
+                    <h5 class="center white-text">Tools and Frameworks</h5>
+                    <ul>
+                        <li><h5>-Spring-Boot</h5></li>
+                        <li><h5>-SonarQube</h5></li>
+                        <li><h5>-Maven</h5></li>
+                        <li><h5>-Git</h5></li>
+                        <li><h5>-Django</h5></li>
+                        <li><h5>-Swagger</h5></li>
+                        <li><h5>-Bluemix</h5></li>
+                        <li><h5>-AWS</h5></li>
+                        <li><h5>-Mockito</h5></li>
+                        <li><h5>-JUnit</h5></li>
+                        <li><h5>-Confluence</h5></li>
+                        <li><h5>-Jira</h5></li>
+                        <li><h5>-Kanban</h5></li>
+                        <li><h5>-Scrum</h5></li>
+                        <li><h5>-Agile</h5></li>
+                        <li><h5>-SDLC</h5></li>
+                        <li><h5>-Linux</h5></li>
+                    </ul>
+                </div>
+                <div class="col s12 m12 l3">
+                    <h5 class="center white-text">Computer Science skills</h5>
+                    <ul>
+                        <li><h5>-Data Structures</h5></li>
+                        <li><h5>-Algorithms</h5></li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+
+    <footer class="section page-footer black">
+        <div class="container center-align">
+            &#169; Luis Jeronimo 2019
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.fixed-action-btn').floatingActionButton();
+        });
+    </script>
+</body>
+</html>
